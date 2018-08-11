@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1229" started-at="2018-08-11T10:55:06Z" finished-at="2018-08-11T10:55:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1229" started-at="2018-08-11T10:55:06Z" finished-at="2018-08-11T10:55:07Z">
+      <class name="testcase.TC002_EditLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcase.TC002_EditLead@3108bc]" name="beforeSuite" is-config="true" duration-ms="718" started-at="2018-08-11T10:55:05Z" finished-at="2018-08-11T10:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setvalues()[pri:0, instance:testcase.TC002_EditLead@3108bc]" name="setvalues" is-config="true" duration-ms="0" started-at="2018-08-11T10:55:06Z" finished-at="2018-08-11T10:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setvalues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.TC002_EditLead@3108bc]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-08-11T10:55:06Z" finished-at="2018-08-11T10:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="editLead(java.lang.String, java.lang.String)[pri:0, instance:testcase.TC002_EditLead@3108bc]" name="editLead" duration-ms="1186" started-at="2018-08-11T10:55:06Z" data-provider="fecthbook" finished-at="2018-08-11T10:55:07Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: editLead([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) Accenture,(java.lang.String) Shanthi,(java.lang.String) Rajendran,(java.lang.String) shanti123@gmail.com,(java.lang.String) 123456]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: editLead([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) Accenture,(java.lang.String) Shanthi,(java.lang.String) Rajendran,(java.lang.String) shanti123@gmail.com,(java.lang.String) 123456]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="stopsuit()[pri:0, instance:testcase.TC002_EditLead@3108bc]" name="stopsuit" is-config="true" duration-ms="791" started-at="2018-08-11T10:55:07Z" finished-at="2018-08-11T10:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopsuit -->
+      </class> <!-- testcase.TC002_EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

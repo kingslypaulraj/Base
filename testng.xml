@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project" parallel = "classes">
+	<groups>
+	<run>
+	<include name = "common">
+	</include>
+	<include name = "regression">
+	</include>
+	</run>
+	</groups>
+	<test name="Test">
+		<classes>
+			<class name="ProjectMedium.CreateContact" />
+			<class name="ProjectMedium.Flipkart" />
+
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Project -->

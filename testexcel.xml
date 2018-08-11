@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose = "5">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="http://leaftaps.com/opentaps/control/main"></parameter>
+<parameter name="username" value="Demosalesmanager"></parameter>
+<parameter name="pwd" value="crmsfa"></parameter>
+<test thread-count="5" name="Testexcel">
+    <classes>
+      <class name="Week6day1.CreateLead"/>
+    </classes>
+  </test> <!-- Testexcel -->
+</suite> <!-- Suite -->
